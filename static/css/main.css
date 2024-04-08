@@ -82,3 +82,21 @@
     cursor: pointer;
     display: block;
 }
+
+.change-quantity: :hover {
+    opacity: .6;
+}
+
+.form-field {
+    width: 250px;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.col-lg-6 {
+    padding-top: 10px;
+}
+
+.hidden {
+    display: none!important;
+}
