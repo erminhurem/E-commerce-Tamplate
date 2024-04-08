@@ -1,0 +1,44 @@
+.box-element {
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 200px;
+    -wbekit-box-shadow: -1px -3px -5px -2px rgba(214,214,214,1);
+    -moz-box-shadow: -1px -3px -5px -2px rgba(214,214,214,1);
+    box-shadow: -1px -3px -5px -2px rgba(214,214,214,1);
+}
+
+.product {
+    border-radius: 0 0 4px 4px;
+}
+
+#cart-icon {
+    width: 35px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#cart-total {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    width: 15px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.price {
+    display: inline-block;
+    float: right;
+}
+
+.col-lg-4 {
+    padding-top: 10px;
+}
